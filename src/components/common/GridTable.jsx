@@ -1,5 +1,5 @@
 import React, { useCallback } from 'react';
-import '../assets/styles.css'
+import '../../assets/styles.css'
 
 export const GridTable = ({ data, headers, onRowClick }) => {
   const handleClick = useCallback(

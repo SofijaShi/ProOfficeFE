@@ -102,10 +102,6 @@
   cursor: pointer;
 }
 
-.book-button:hover {
-  background-color: #0069d9;
-}
-
 .quantity-label {
   display: block;
   padding: 1%;
@@ -119,9 +115,15 @@
 .date-range-picker #start-date {
  display: block;
  padding: 1%;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ box-sizing: border-box;
 }
 
 .date-range-picker #end-date {
   display: block;
   padding: 1%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }

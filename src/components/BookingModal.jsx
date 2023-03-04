@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "../assets/styles.css";
-import { DateRangePicker } from "./DateRangePicker";
+import { DateRangePicker } from "./common/DateRangePicker";
 import NumericInput from "react-numeric-input";
 import { bookResource } from "../data/dataAccess";
 

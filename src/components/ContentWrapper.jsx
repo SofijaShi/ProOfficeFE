@@ -1,4 +1,4 @@
-import { GridTable } from "./GridTable";
+import { GridTable } from "./common/GridTable";
 import { useState } from "react";
 import { BookingModal } from "./BookingModal";
 import { useEffect } from "react";
